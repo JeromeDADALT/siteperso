@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang=fr>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="origin">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="Jérôme DA DALT">
+    <meta name="description" content="Je suis Jérôme DA DALT, Développeur Web Fullstack à Bordeaux">
+    <meta name="keywords" content="Jérôme DADALT Développeur Web Bordeaux">
+    <title>Jérôme DA DALT, Développeur Web Fullstack à Bordeaux</title>
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css " integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-1" data-offset="0">
+    <!-- header -->
+    <header class="container-fluid p-2 row justify-content-around align-items-end">
+        <!-- logo -->
+        <nav id="navbar-1" class="row justify-content-between align-items-center fixed-top backGroundGrey py-1">
+            <div class="col-10 col-md-6 col-lg-4">
+                <a href="#" class="row align-items-center">
+                    <div class="col-3 pr-0">
+                        <img src="img/logo.jpg" alt="logo de Jérôme DA DALT" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-9">
+                        <h4 class="bleu pt-2 mb-1 text-left myndraine">Jérôme DA DALT</h4>
+                        <h5 class="grisfoncé text-left myndraine">Développeur Web Fullstack</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- burger -->
+            <div id="burger" class="col-2 col-md-1 justify-content-end">
+                <span class="text-right">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32" style="fill: #025097">
+                    <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+                    </svg>
+                </span>
+            </div>
+            <!-- menu -->
+            <div id="menu" class="col-2 col-md-4 col-lg-6">
+                <ul class="row align-items-center">
+                    <li class="col-4 text-center nav-item">
+                        <a href="#projet" class="montserrat text-uppercase nav-link">Votre projet</a>
+                    </li>
+                    <li class="col-4 text-center nav-item">
+                        <a href="#realisations" class="montserrat text-uppercase nav-link">Réalisations</a>
+                    </li>
+                    <li class="col-4 text-center nav-item">
+                        <a href="#monprofil" class="montserrat text-uppercase nav-link">Qui suis-je ?</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- liste des services -->
+        <div class="services">
+            <h3 class="architects">Site web & e-commerce</h3>
+            <h3 class="architects">Ergonomie - Webdesign</h3>
+            <h3 class="architects">Prestations personnalisées</h3>
+            <h3 class="architects">Sécurité - Référencement</h3>
+        </div>
+        <!-- double flèche bas -->
+        <div class="col-2 col-md-1 col-lg-1 mb-5 mb-md-2 mb-lg-0">
+            <a href="#projet">
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#737373;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><path class="cls-1" d="M16.47,16.88,26.34,7a1,1,0,0,0-1.41-1.41l-9.06,9.06-8.8-8.8a1,1,0,0,0-1.41,0h0a1,1,0,0,0,0,1.42l9.61,9.61A.85.85,0,0,0,16.47,16.88Z"/><path class="cls-1" d="M16.47,26.46l9.87-9.88a1,1,0,0,0-1.41-1.41l-9.06,9.06-8.8-8.8a1,1,0,0,0-1.41,0h0a1,1,0,0,0,0,1.41l9.61,9.62A.85.85,0,0,0,16.47,26.46Z"/></g></svg>
+            </a>
+        </div>
+        <!-- menu responsive -->
+        <nav class="navresp">
+            <ul>
+                <li id="logoResp">
+                    <a href="#" class="row flex-column align-items-center">
+                        <div class="col-5">
+                            <img src="img/logo.jpg" alt="logo de Jérôme DA DALT" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-10">
+                            <h4 class="bleu myndraine mb-0 mt-2">Jérôme DA DALT</h4>
+                            <h5 class="grisfoncé myndraine">Développeur Web Fullstack</h5>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="montserrat text-uppercase text-center nav-link">Accueil</a>
+                </li>
+                <li>
+                    <a href="#projet" class="montserrat text-uppercase text-center nav-link">Votre projet</a>
+                </li>
+                <li>
+                    <a href="#realisations" class="montserrat text-uppercase text-center nav-link">Réalisations</a>
+                </li>
+                <li>
+                    <a href="#monprofil" class="montserrat text-uppercase text-center nav-link">Qui suis-je ?</a>
+                </li>
+                <li>
+                    <a href="#coordonnees" class="montserrat text-uppercase text-center nav-link">Contact</a>
+                </li>
+            </ul>
+            <div id="overlay"></div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- votre projet -->
+        <span class="anchor4" id="projet"></span>
+        <section class="container-fluid py-5 my-5">
+            <!-- partie visible -->
+            <h1 class="bleu text-uppercase pb-4">Construisons ensemble votre projet</h1>
+            <div class="row justify-content-between pb-5">
+                <div class="honeycomb col-7 col-md-8">
+                    <div class="honeycomb-cell" data-title="contact">
+                        <img class="honeycomb-cell__image" src="img/telephone.jpg">
+                        <div class="honeycomb-cell__title">Premier contact</div>
+                    </div>
+                    <div class="honeycomb-cell" data-title="questions">
+                        <img class="honeycomb-cell__image" src="img/questions.jpg">
+                        <div class="honeycomb-cell__title">Les bonnes questions</div>
+                    </div>
+                    <div class="honeycomb-cell" data-title="rencontre">
+                        <img class="honeycomb-cell__image" src="img/cafe.jpg">
+                        <div class="honeycomb-cell__title">Rencontre</div>
+                    </div>
+                    <div class="honeycomb-cell" data-title="travaillons">
+                        <img class="honeycomb-cell__image" src="img/travaillons.jpg">
+                        <div class="honeycomb-cell__title">Travaillons ensemble</div>
+                    </div>
+                    <div class="honeycomb-cell" data-title="construction">
+                        <img class="honeycomb-cell__image" src="img/code.jpg">
+                        <div class="honeycomb-cell__title">Construction du site</div>
+                    </div>
+                    <div class="honeycomb-cell" data-title="livraison">
+                        <img class="honeycomb-cell__image" src="img/livraison.jpg">
+                        <div class="honeycomb-cell__title">Livraison</div>
+                    </div>
+                    <div class="honeycomb-cell" data-title="publication">
+                        <img class="honeycomb-cell__image" src="img/publication.jpg">
+                        <div class="honeycomb-cell__title">Publication</div>
+                    </div>
+                </div>
+                <!-- partie animée -->
+                <div class="col-5 col-md-4 p-0 mt-4">
+                    <div id="avant">
+                        <h3 class="text-left text-uppercase bleu marginTopA">Avant de commencer...</h3>
+                        <p class="font22 pt-3 pl-2">Un site n'est pas le rendu d'un développeur mais le fruit d'un travail qui nous engage <span class="text-uppercase bleu opacity8">conjointement</span>. La confiance en est la base. Nous <span class="text-uppercase bleu opacity8">collaborons</span>                            sur un projet commun par de fréquents <span class="text-uppercase bleu opacity8">échanges</span>. Vous n'êtes pas en train d'acheter un cadeau sur Amazon !</p>
+                    </div>
+                    <div id="contact" class="d-none">
+                        <h3 class="text-left text-uppercase bleu marginTopB">Premier contact</h3>
+                        <p class="font22 pt-3 pl-2">Nous échangeons sur les <span class="text-uppercase bleu opacity8">contours de votre projet</span> et convenons d'un <span class="text-uppercase bleu opacity8">Rendez-Vous</span> pour approfondir.</p>
+                    </div>
+                    <div id="questions" class="d-none">
+                        <h3 class="text-left text-uppercase bleu marginTopC">Posez vous les bonnes questions !</h3>
+                        <h5 class="text-left pt-3">A qui s'adresse le site ?</h5>
+                        <p class="font22 pt-2 pl-2">C'est la première question à se poser lors de la création d'un site web. Cela permet de définir l'<span class="text-uppercase bleu opacity8">objectif du site</span> et son type : vitrine, blog, e-commerce.</p>
+                        <h5 class="text-left">Que doit contenir votre site ?</h5>
+                        <p class="font22 pt-2 pl-2">C'est ce qui va découler de le précédente question, il s'agit ici de préciser le <span class="text-uppercase bleu opacity8">contenu</span> et lister les <span class="text-uppercase bleu opacity8">fonctionnalités</span> souhaitées.</p>
+                    </div>
+                    <div id="rencontre" class="d-none">
+                        <h3 class="text-left text-uppercase bleu marginTopD">Rencontre autour d'un café</h3>
+                        <p class="font22 pt-3 pl-2">Nous cernons vos <span class="text-uppercase bleu opacity8">attentes prioritaires</span> et établissons la base du cahier des charges. C'est la <span class="text-uppercase bleu opacity8">première collaboration</span>.</p>
+                    </div>
+                    <div id="travaillons" class="d-none marginTopE">
+                        <h3 class="text-left text-uppercase bleu">Travaillons ensemble</h3>
+                        <p class="font22 pt-3 pl-2">L'étape suivante va être de rédiger un <span class="text-uppercase bleu opacity8">cahier des charges</span> clair, complet et détaillé sur l'apparence, la structure, les fonctionnalités, les choix technologiques et l'hébergement.</p>
+                    </div>
+                    <div id="construction" class="d-none marginTopF">
+                        <h3 class="text-left text-uppercase bleu">Construction du site</h3>
+                        <p class="font22 pt-3 pl-2">Nous faisons des <span class="text-uppercase bleu opacity8">points réguliers</span> sur l'avancement du site afin de vite <span class="text-uppercase bleu opacity8">réajuster</span> si nécessaire.</p>
+                    </div>
+                    <div id="livraison" class="d-none marginTopG">
+                        <h3 class="text-left text-uppercase bleu">Livraison</h3>
+                        <p class="font22 pt-3 pl-2">Le site est disponible pour la <span class="text-uppercase bleu opacity8">phase de test</span> avant votre accord pour publication.</p>
+                    </div>
+                    <div id="publication" class="d-none marginTopH">
+                        <h3 class="text-left text-uppercase bleu">Publication</h3>
+                        <p class="font22 pt-3 pl-2">Félicitations ! Votre site est <span class="text-uppercase bleu opacity8">en ligne</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- réalisations -->
+        <span class="anchor15" id="realisations"></span>
+        <section class="backGroundGrey p-5 my-5">
+            <h1 class="bleu text-uppercase pb-4">Réalisations</h1>
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
+                    <div class="siteCard p-0">
+                        <div>
+                            <a href="https://padel33.jerome-dadalt.fr" target="_blank">
+                                <img src="img/padel33.png" alt="photo du site padel33" class="img-fluid height200">
+                            </a>
+                        </div>
+                        <div class="p-2 height130">
+                            <h3 class="font-weight-bold my-1">Padel33</h3>
+                            <h5 class="text-uppercase font14">Site communautaire de joueurs de Padel de Gironde</h5>
+                            <h5 id="padelClic" class="font12">Voir le descriptif du projet</h5>
+                            <div id="padelProject">
+                                <h6 class="mt-3">Contexte</h6>
+                                <p class="myndraine font14">Le site doit être développé "from scratch", c'est-à-dire sans CMS en partant de zéro. Il doit inclure des fonctionnalités particulières : possibilité d'inscription, accés selon le rôle des utilisateurs, formulaire de recherche,
+                                    tri par critères</p>
+                                <h6>Technologies</h6>
+                                <p class="myndraine font14">Html, Css, Bootstrap, Sass, JavaScript, jQuery, Php, Symfony, Doctrine, Twig, MySQL, MAMP, JMerise, Github</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3">
+                    <div class="siteCard p-0">
+                        <div>
+                            <a href="https://mahlerpessac.jerome-dadalt.fr/" target="_blank">
+                                <img src="img/mahlerpessac.png" alt="photo du site institut Mahler Pessac" class="img-fluid height200">
+                            </a>
+                        </div>
+                        <div class="p-2 height130">
+                            <h3 class="font-weight-bold my-1">Institut Mahler Pessac</h3>
+                            <h5 class="text-uppercase font14">E-commerce pour un institut de beauté</h5>
+                            <h5 id="mahlerClic" class="font12">Voir le descriptif du projet</h5>
+                            <div id="mahlerProject">
+                                <h6 class="mt-3">Contexte</h6>
+                                <p class="myndraine font14">Le gérant de l'institut souhaite avoir un site à double vocation : une partie vitrine et une boutique en ligne. Il doit égalemet être facilement administrable par un tableau de bord et mis à jour par le client lui-même.</p>
+                                <h6>Technologies</h6>
+                                <p class="myndraine font14">Technologies : Wordpress, Woocommerce, Html, Css</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3">
+                    <div class="siteCard p-0">
+                        <div>
+                            <a href="https://jerome-dadalt.fr" target="_blank">
+                                <img src="img/jeromedadalt.png" alt="photo du site de Jerome DADALT" class="img-fluid height200">
+                            </a>
+                        </div>
+                        <div class="p-2 height130">
+                            <h3 class="font-weight-bold my-1">Jérôme DA DALT</h3>
+                            <h5 class="text-uppercase font14">Site vitrine de Développeur Web</h5>
+                            <h5 id="jeromeClic" class="font12">Voir le descriptif du projet</h5>
+                            <div id="jeromeProject">
+                                <h6 class="mt-3">Contexte</h6>
+                                <p class="myndraine font14">Site onepage uniquement réalisé avec des langages frontend. Le but est d'avoir un site léger et responsive.</p>
+                                <h6>Technologies</h6>
+                                <p class="myndraine font14">Html, Css, Bootstrap, JavaScript, jQuery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- qui suis-je -->
+        <span class="anchor4" id="monprofil"></span>
+        <section class="row justify-content-around align-items-center px-5 pt-5 mt-5">
+            <!-- mon profil -->
+            <div class="col-12 col-md-9 col-lg-7">
+                <h1 class="bleu text-uppercase text-left pb-2">Qui suis-je ?</h1>
+                <p>Marié et papa épanoui de 2 enfants, j'ai commencé en autodidacte passionné parallèllement à mon parcours professionnel (professeur, comptable, formateur logiciel). J'ai ensuite franchi le cap en reprenant les études afin de me professionnaliser
+                    et d'acquérir une légitmité. Diplômé en développement Web, j'aspire aujourd'hui à proposer des solutions personnalisées en privilégiant une ambiance de travail humaine et conviviale.</p>
+            </div>
+            <!-- photo -->
+            <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+                <img src="img/photoJDD.jpg" alt="photo de Jérôme DA DALT" class="img-fluid rounded-circle">
+            </div>
+            <!-- softkills -->
+            <div class="col-6 col-md-3 col-lg-2 monprofil">
+                <h2 class="text-right">Softkills</h2>
+                <ul class="text-right">
+                    <li>Curiosité</li>
+                    <li>Adaptabilité</li>
+                    <li>Sens du détail</li>
+                    <li>Ecoute active</li>
+                    <li>Polyvalence</li>
+                    <li>Rigueur</li>
+                    <li>Organisation</li>
+                </ul>
+            </div>
+            <!-- animation développeur -->
+            <div class="container">
+                <div class="objects">
+                    <div class="objects_computer"></div>
+                    <div class="objects_table"></div>
+                    <div class="objects_cup"></div>
+                    <div class="smoke"></div>
+                    <div class="objects_chair"></div>
+                </div>
+                <div class="box">
+                    <div class="box_1">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="box_2">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="box_3"></div>
+                </div>
+            </div>
+            <!-- compétences -->
+            <div class="col-12 col-md-11 col-lg-7 pl-4">
+                <h2 class="text-left">Compétences</h2>
+                <p>Développeur Web Fullstack, c'est quoi ? C'est un “développeur à tout faire”, aussi bien capable de coder sur la partie front (le visuel) que back (la base de données). Il est à l’aise avec plusieurs langages / technologies et connaît toute
+                    la chaîne de développement d'un site web. Cela me permet d'avoir une vision globale : conception (cahier des charges, parcours utilisateur, notions de design), création (modélisation, maquette, base de données), développement (langages
+                    front et back, frameworks, reponsive design), production (hébergement serveur, sécurité, référencement).</p>
+            </div>
+            <!-- citation -->
+            <div class="col-12 col-md-12 col-lg-8">
+                <h4 class="bleu pb-4">"C'est par le partage et la rencontre continuelle avec les expériences enrichissantes des autres qu'on se forme peu à peu un chemin personnel qui nous comble."</h4>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="coordonnees" class="container-fluid backGroundGrey">
+        <ul class="row justify-content-around align-items-center p-2">
+            <!-- mail -->
+            <li class="col-12 col-md-6 col-lg-3 text-center py-1">
+                <a href="mailto:contact@jerome-dadalt.fr">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557
+        1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/></svg> contact@jerome-dadalt.fr
+                </a>
+            </li>
+            <!-- téléphone -->
+            <li class="col-12 col-md-6 col-lg-3 text-center py-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 2c0-1.104-.896-2-2-2h-10c-1.104 0-2 .896-2 2v20c0 1.104.896 2 2 2h10c1.104 0 2-.896 2-2v-20zm-8.5 0h3c.276 0 .5.224.5.5s-.224.5-.5.5h-3c-.276
+        0-.5-.224-.5-.5s.224-.5.5-.5zm1.5 20c-.553 0-1-.448-1-1s.447-1 1-1c.552 0 .999.448.999 1s-.447 1-.999 1zm5-3h-10v-14.024h10v14.024z"/></svg> 06 12 10 09 36
+            </li>
+            <!-- linkedin -->
+            <li class="col-12 col-md-6 col-lg-3 text-center py-1">
+                <a href="https://www.linkedin.com/in/jeromedadalt/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966
+        0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> /in/jeromedadalt
+                </a>
+            </li>
+            <!-- github -->
+            <li class="col-12 col-md-6 col-lg-3 text-center py-1">
+                <a href="https://github.com/JeromeDADALT" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
+        1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404
+        1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386
+        0-6.627-5.373-12-12-12z"/></svg> github.com/JeromeDADALT
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/*je déclare ici les polices utilisées aprés les avoir transformées puis téléchargées aux formats woff et woff2
+afin qu'elles soient adaptatives et responsives */
+
+@font-face {
+    font-family: 'myndraine';
+    src: url('../fonts/myndraine/myndraine-webfont.woff2') format('woff2'), url('../fonts/myndraine/myndraine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rodina';
+    src: url('../fonts/rodina/rodina-webfont.woff2') format('woff2'), url('../fonts/rodina/rodina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'architects';
+    src: url('../fonts/architects/architectsdaughter-regular-webfont.woff2') format('woff2'), url('../fonts/architects/architectsdaughter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caveat';
+    src: url('../fonts/caveat/caveat-regular-webfont.woff2') format('woff2'), url('../fonts/caveat/caveat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
