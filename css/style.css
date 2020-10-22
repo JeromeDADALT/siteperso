@@ -27,9 +27,6 @@ h6 {
 p,
 a,
 li,
-input,
-button,
-textarea,
 span {
     font-family: 'rodina', sans-serif;
     font-size: 20px;
@@ -225,6 +222,12 @@ section {
 #jeromeClic:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+#padelZone:hover,
+#mahlerZone:hover,
+#jeromeZone:hover {
+    cursor: pointer;
 }
 
 .rounded-circle {
