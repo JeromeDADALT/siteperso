@@ -40,38 +40,16 @@ $(document).ready(function() {
 });
 
 /* animation réalisations */
-$("#padelZone").click(function() {
-    if ($("#padelClic").text() === 'Voir le descriptif du projet') {
-        $("#padelClic").text('Masquer le descriptif');
+$(".textCard").click(function() {
+    var id_card = $(this).attr("id");
+    if ($("#clic" + id_card).text() === 'Voir le descriptif du projet') {
+        $("#clic" + id_card).text('Masquer le descriptif');
     } else {
-        $("#padelClic").text('Voir le descriptif du projet');
+        $("#clic" + id_card).text('Voir le descriptif du projet');
     };
 });
 
-$("#padelZone").click(function() {
-    $("#padelProject").toggle("slow", function() {});
-});
-
-$("#mahlerZone").click(function() {
-    if ($("#mahlerClic").text() === 'Voir le descriptif du projet') {
-        $("#mahlerClic").text('Masquer le descriptif');
-    } else {
-        $("#mahlerClic").text('Voir le descriptif du projet');
-    };
-});
-
-$("#mahlerZone").click(function() {
-    $("#mahlerProject").toggle("slow", function() {});
-});
-
-$("#jeromeZone").click(function() {
-    if ($("#jeromeClic").text() === 'Voir le descriptif du projet') {
-        $("#jeromeClic").text('Masquer le descriptif');
-    } else {
-        $("#jeromeClic").text('Voir le descriptif du projet');
-    };
-});
-
-$("#jeromeZone").click(function() {
-    $("#jeromeProject").toggle("slow", function() {});
+$(".textCard").click(function() {
+    var id_card = $(this).attr("id");
+    $("#project" + id_card).toggle("slow", function() {});
 });
